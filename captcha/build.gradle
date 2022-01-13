@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         minSdkVersion 15
-        targetSdkVersion 25
+        targetSdkVersion 32
         versionCode 10
         versionName "1.1.2"
 
@@ -51,7 +51,7 @@ dependencies {
     androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.4.0'
     testImplementation 'junit:junit:4.13.2'
 }
 /*
